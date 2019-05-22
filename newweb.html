@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="neweb.css">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Parisienne|Playball|Playfair+Display+SC|Sacramento|Tangerine|Cinzel+Decorative|Lobster" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+	<title>Travel</title>
+</head>
+<body>
+	<div class="header" id="section_home">
+ 	  <h1>Travel Website Name</h1>
+	</div>
+	<div class="topnav">
+ 		<a href="#section_home">Home</a>
+  	<a href="#section_about">About</a>
+  	<a href="#section_destinations">Destinations</a>
+    <a href="#section_flights">Flights</a>
+  	<a href="#section_review">Reviews</a>
+	</div>
+	<div class="video">
+		<video class="oceanvid" autoplay muted loop> 
+			<source class="bgvideo bg-video-content">
+        <source src="Images/oceanvid.mp4" type="video/mp4">
+	</div>
+	<div class="video-text">
+		<div class="text-box">
+      <div class="video-overlay">
+        Travel the World!
+      </div>
+      <button class="btn" onclick="openForm()"> <a href="#section_destinations"></a>
+        Click to Explore Destinations!
+      </button>
+      <div class="form-popup" id="myForm">
+       <form action="/action_page.php" class="form-container">
+         <h1>Sign Up for Travel Promotions!</h1>
+         <label for="email"><b>Email</b></label>
+         <input type="text" placeholder="Enter Email" name="email" required>
+         <button type="submit" class="btn2">Submit</button>
+         <button type="button" class="btn2 cancel" onclick="closeForm()">Close</button>
+      </form>
+     </div>
+    <script>
+     function openForm() {
+     document.getElementById("myForm").style.display = "block";
+    }
+     function closeForm() {
+     document.getElementById("myForm").style.display = "none";
+     }
+   </script>
+	 </div>
+  </div>
+  </div>
+	<div class="containerabout1">
+		<div class="clearfix">
+  		<div class="box">
+  			<div class="about" id="section_about"> 
+          <h2>A B O U T </h2>
+        </div>
+  			<div  class="col-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ecepteur sint occaecat cupidatat non proident.
+        </div>
+ 		 </div>
+			<div class="col-images">
+				<img src="Images/foggy.jpg" class="composition photocomp1">
+				<img src="Images/bluesky.jpg" class="composition photocomp2">
+				<img src="Images/dolphins.jpg"class="composition photocomp3">
+			</div>
+  	</div>
+	 <button class="scrollbtn"><a href="#section_home">TOP</a></button>
+  </div>
+  <div class="ad">
+    <button>
+      <a href="https://www.enterprise.com/en/home.html"><img  class="adimg" src="Images/ad.jpg"></a>    
+    </button>
+  </div>
+  <div class="page3" id="section_destinations">
+    <div class="col-1-of-5 container2">
+  		<div class="trip1">
+        <div class="trip-images">
+          <img src="Images/mountains.jpg" style="width:30rem;">
+        </div>
+        <div class="trip-description">
+          <div class="name">
+            Winter Retreat
+          </div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+      </div>
+  		<div class="trip2">
+        <div class="trip-images">
+  				 <img src="Images/yellowtrees.jpg" style="width:30rem;"> 
+        </div>
+        <div class="trip-description">
+          <div class="name">
+            Fall Retreat
+          </div>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+  		</div>
+  		<div class="trip3">
+        <div class="trip-images">
+  				<img src="Images/maldives.jpg" style="width:30rem;">
+        </div>
+        <div class="trip-description">
+         <div class="name">
+           Summer Resort
+        </div>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+  		</div>
+  		<div class="trip4">
+        <div class="trip-images">
+  				<img src="Images/beach.jpg" style="width:30rem; height:20em;">
+        </div>
+        <div class="trip-description">
+          <div class="name">
+            Under the Sea Retreat
+          </div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+  		</div>
+  		<div class="trip5">
+        <div class="trip-images">
+  				<img src="Images/lake.jpg" style="width:30rem;">
+        </div>
+        <div class="trip-description">
+          <div class="name">
+             Lake Get Away
+          </div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+  		</div>
+  	</div>
+  </div>
+  <div class="checkbox boxcheck">
+    <div class="check">
+      <img class="imgcheck" src="Images/check.jpg">
+      <div class="boxcontent">
+         Duis aute irure dolor in reprehderit velit esse.
+      </div>
+    </div>
+    <div class="check">
+      <img class="imgcheck" src="Images/check.jpg">
+      <div class="boxcontent">
+        Duis aute irure dolor in reprehderit velit esse.
+      </div>
+    </div>
+    <div class="check">
+      <img  class="imgcheck" src="Images/check.jpg">
+      <div class="boxcontent">
+        Duis aute irure dolor in reprehderit velit esse.
+     </div>
+    </div>
+  </div>
+  <div class="container3" id="section_flights">
+    <div class="flights">
+      <div class="plane-img">
+        <img src="Images/flight.jpg" style="width:40rem; height: 35rem;">
+      </div>
+      <div class="plane-info">
+        <div class="header-plane">
+         Flights
+        </div>
+        <div class="plane-text">
+         Aliquam gravida at metus non dignissim. Fusce pellentesque magna risus, sit amet vehicula ligula dictum ut. Nullam ac lorem sed ex laoreet facilisis sed in lacus. Maecenas convallis laoreet lacinia. Proin viverra ut ante consequat gravida. Vestibulum arcu ipsum, varius nec lectus et, luctus porta leo. Pellentesque venenatis lacinia lorem ut viverra. Etiam mollis lacus quis libero ultricies, quis dictum quam lacinia. Nullam eu justo auctor, hendrerit est non, laoreet nibh. Etiam pellentesque nibh vel dolor cursus blandit. Fusce auctor accumsan nibh id aliquam.
+       </div>
+     </div>
+   </div>
+  </div>
+  <div class="leave-review">
+    <div class="rating">
+        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+    </div>
+    <form method="post" action="http://">
+      <textarea  name="comments" cols="75" rows="6" class="review-text-box-answer"> Tell Us About Your Experience!</textarea>
+      <br><input type="submit" value="Submit" class="review-text-box-submit">
+    </form>
+  </div>
+  <div class="card cards-container" id="section_review">
+    <div class="card">
+      <div class="card_front_1 card_side">
+        <div class="front_text">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span> 
+        </div>
+      </div>
+      <div class="card_back_1 card_side">
+        <div class="back-text">
+         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+         <p>-Name</p>
+       </div>
+     </div>
+   </div>
+   <div class="card">
+    <div class="card_front_2 card_side">
+      <div class="front_text">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span> 
+      </div>
+    </div>
+    <div class="card_back_2 card_side">
+     <div class="back-text">
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        <p>-Name</p> 
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <div class="card_front_3 card_side">
+      <div class="front_text">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span> 
+      </div>
+    </div>
+    <div class="card_back_3 card_side">
+      <div class="back-text">
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        <p>-Name</p>
+      </div>
+    </div>
+   </div>
+  </div> 
+</body>
+</html>
+</body>
+</html>
+
